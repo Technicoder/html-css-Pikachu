@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+
 header{
 	text-align: center;
 }
@@ -30,8 +39,9 @@ height: auto;
 
 figure {
 float: left;
-width: 220px;
-margin: 10px;
+width: 33.33333%;
+margin: 0;
+padding: 0 10px;
 }
 
 
@@ -40,7 +50,7 @@ width: 750px;
 background-color: aliceblue;
 margin: auto;
 overflow: hidden;
-padding: 20px 4px;
+padding: 20px 30px;
 }
 
 main.gallery {
@@ -48,7 +58,7 @@ width: 750px;
 background-color: tomato;
 margin: auto;
 overflow: hidden;
-padding: 20px 4px;
+padding: 20px 30px;
 }
 
 
@@ -67,7 +77,10 @@ padding: 20px 0;
 .gallery section {
   /* What side-effects do you notice? There's a border on the gallery page as well :o
    We don't want that! Let's get rid of it from the gallery's section*/
+}
 
+.gallery-title {
+  padding-left: 10px;
 }
 
 
